@@ -8,12 +8,13 @@ btnOne.addEventListener("click", function () {
     document.getElementById("output").innerHTML = e.data;
   }
 
-  //default is complex calculation
+  // default is complex calculation
   // let result = 0;
   // for (let i = 0; i < 1000000000; i++) {
   //   result += i;
   // }
-  // document.getElementById("output").innerHTML = result;
+  // document.getElementById("output").innerHTML += result;
+
 });
 
 
